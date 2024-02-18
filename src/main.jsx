@@ -6,15 +6,7 @@ import "./index.css";
 import Tic_tac_toe from "./Tic_tac_toe";
 import Dice_game from "./Dice_game";
 import ToDoLocal from "./ToDoLocal";
-import PortfolioLayout from "./PortFolio/PortfolioLayout";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import {
-  Home,
-  Header_new,
-  About,
-  Projects,
-  Contact,
-} from "./PortFolio/index.js";
 
 // const router = createBrowserRouter([
 //   {
@@ -45,11 +37,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <Tic_tac_toe /> */}
     {/* <Dice_game /> */}
-    {/* <Game /> */}
+    <Game />
     {/* <Currency_Generator /> */}
     {/* <ToDoLocal /> */}
     {/* <RouterProvider router={router} /> */}
-    <PortfolioLayout />
+    {/* <PortfolioLayout /> */}
     {/* <Projects /> */}
   </React.StrictMode>,
 );
